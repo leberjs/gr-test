@@ -38,6 +38,13 @@ archives:
     # this name template makes the OS and Arch compatible with the results of `uname`.
     name_template: "{{.Binary}}-{{.Os}}-{{.Arch}}"
 
+brews:
+  - name: gr-test
+    homepage: https://github.com/leberjs/homebrew-tools
+    repository:
+      owner: leberjs
+      name: homebrew-tools
+
 changelog:
   sort: asc
   filters:
